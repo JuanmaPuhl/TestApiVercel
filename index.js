@@ -8,15 +8,6 @@ app.get('/', (req, res) => {
   res.send('Express on Vercel')
 })
 
-
-app.post('/api/test', (req, res) => {
-    res.send('Hello World')
-})
-
-app.get("/api/anotherone", (req, res) => {
-    res.send("A VER A VER, QUE PASO")
-})
-
 // Initialize server
 app.listen(5000, () => {
   console.log('Running on port 5000.')
