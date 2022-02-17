@@ -12,3 +12,5 @@ router.get("/apiloca", (req,res)=>{
 router.post("/", (req,res)=>{
     res.send("A POST REQUEST")
 })
+
+module.exports = router
